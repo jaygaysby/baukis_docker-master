@@ -1,0 +1,70 @@
+/* line 6, /usr/src/app/app/assets/stylesheets/customer/container.scss */
+div#wrapper div#container h1 {
+  margin: 0;
+  padding: 9px 6px;
+  font-size: 16px;
+  font-weight: normal;
+  background-color: #33331a;
+  color: #eeeeee;
+}
+/* line 4, /usr/src/app/app/assets/stylesheets/customer/layouts.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* line 10, /usr/src/app/app/assets/stylesheets/customer/layouts.scss */
+div#wrapper {
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100%;
+  margin: 0 auto;
+  padding-bottom: 48px;
+  background-color: #cccccc;
+}
+
+/* line 19, /usr/src/app/app/assets/stylesheets/customer/layouts.scss */
+header {
+  padding: 6px;
+  background-color: #888844;
+  color: #fafafa;
+}
+/* line 23, /usr/src/app/app/assets/stylesheets/customer/layouts.scss */
+header span.logo-mark {
+  font-weight: bold;
+}
+
+/* line 27, /usr/src/app/app/assets/stylesheets/customer/layouts.scss */
+footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  background-color: #666666;
+  color: #fafafa;
+}
+/* line 33, /usr/src/app/app/assets/stylesheets/customer/layouts.scss */
+footer p {
+  text-align: center;
+  padding: 6px;
+  margin: 0;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+
+

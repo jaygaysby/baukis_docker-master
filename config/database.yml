@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: <%= ENV.fetch("POSTGRES_USER", "baukis") %>
+  password: <%= ENV.fetch("POSTGRES_PASSWORD", "baukis") %>
+  host: <%= ENV.fetch("DB_HOST", "db") %>
+  port: <%= ENV.fetch("DB_PORT", "3306") %>
+
+development:
+  <<: *default
+  database: <%= ENV.fetch("POSTGRES_DB", "baukis_development") %>
+
+test:
+  <<: *default
+  database: <%= ENV.fetch("POSTGRES_TEST_DB", "baukis_test") %>
+
+production:
+  <<: *default
+  database: <%= ENV["POSTGRES_DB"] %>
+  reconnect: false
